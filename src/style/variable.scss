@@ -1,0 +1,26 @@
+// 定义主题变量
+$qi-border-radius: var(--qi-border-radius, 2px); //一般圆角
+$qi-font-size-md: var(--qi-font-size-md, 12px); //当组件size为''时使用此字号大小
+$qi-animation-duration-slow: var(--qi-animation-duration-slow, 300ms);
+$qi-animation-ease-in-out-smooth: var(--qi-animation-ease-in-out-smooth,
+        cubic-bezier(0.645, 0.045, 0.355, 1));
+$qi-light-text: var(--qi-light-text, #ffffff); // 有色深色背景下字体颜色（固定）
+$qi-primary: var(--qi-primary, #5e7ce0); // 主要按钮，同品牌色
+$qi-primary-hover: var(--qi-primary-hover, #7693f5); // 主要按钮悬停
+$qi-primary-active: var(--qi-primary-active, #344899); // 主要按钮激活
+$qi-text: var(--qi-text, #252b3a); // 正文文本
+$qi-block: var(--qi-block,
+        #ffffff); // 大面积的不可折叠区块的背景色（例如顶部导航背景色）
+$qi-line: var(--qi-line, #adb0b8); // 边框分割线，仅用于边框
+$qi-form-control-line-active: var(--qi-form-control-line-active,
+        #5e7ce0); // 表单控件边框激活色，用于获得焦点
+$qi-brand-active: var(--qi-brand-active, #526ecc); // 品牌色激活色（加深）
+$qi-brand-active-focus: var(--qi-brand-active-focus,
+        #344899); // 品牌色焦点色（重度加深）
+$qi-font-size-sm: var(--s-font-size-md, 10px); //当组件size为''时使用此字号大小
+$qi-font-size-md: var(--s-font-size-md, 12px); //当组件size为''时使用此字号大小
+$qi-font-size-lg: var(--s-font-size-md, 14px); //当组件size为''时使用此字号大小
+$qi-primary-disabled: var(--s-primary-disabled, #98a8df); // 主要按钮禁用状态
+$qi-disabled-text: var(--s-disabled-text, #757a83); // 禁用文本
+$qi-disabled-bg: var(--s-disabled-bg, #c6c9cf); // 禁用背景
+$qi-disabled-line: var(--s-disabled-line, #a5a8ad); // 禁用边框

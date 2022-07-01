@@ -2,7 +2,7 @@
 
 module.exports = {
     lang: 'en-US',
-    title: 'Qiu-UI',
+    title: 'LiuYing-UI',
     titleTemplate: '基于Vite+Ts的Vue3.0组件库',
     description: '基于Vite+Ts的Vue3.0组件库',
     //   base: '/',

@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Qiu-UI
+  name: LiuYing-UI
   text: Vite & Vue powered static site generator.
   tagline: Lorem ipsum...
   actions:

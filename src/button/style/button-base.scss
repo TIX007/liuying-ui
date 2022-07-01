@@ -7,25 +7,25 @@
 
     // 元素属性
     @apply border-[1px] border-solid border-transparent h-[28px] py-0 px-[20px] bg-transparent;
-    border-radius: $qi-border-radius;
+    border-radius: $ly-border-radius;
 
     // 文本属性
     @apply outline-0 leading-normal whitespace-nowrap cursor-pointer;
 
     // 文字样式
-    font-size: $qi-font-size-md;
+    font-size: $ly-font-size-md;
 
     // 其他样式
     transition:
-        background-color $qi-animation-duration-slow $qi-animation-ease-in-out-smooth,
-        border-color $qi-animation-duration-slow $qi-animation-ease-in-out-smooth,
-        color $qi-animation-duration-slow $qi-animation-ease-in-out-smooth;
+        background-color $ly-animation-duration-slow $ly-animation-ease-in-out-smooth,
+        border-color $ly-animation-duration-slow $ly-animation-ease-in-out-smooth,
+        color $ly-animation-duration-slow $ly-animation-ease-in-out-smooth;
 
     &[disabled] {
             @apply cursor-not-allowed;
         }
     
-        &.qi-btn--block {
+        &.ly-btn--block {
         @apply  block w-full
         }
 }
@@ -36,7 +36,7 @@
     $value in $variant {
 
         // 第一层是多态的类型
-        &.qi-btn--#{$key} {
+        &.ly-btn--#{$key} {
 
             @each $item-key,
             $item-value in $value {
@@ -47,10 +47,10 @@
                     // 如果是伪类就继续第三层
                     &:#{$item-key} {
 
-                        @each $qiub-item-key,
-                        $qiub-item-value in $item-value {
+                        @each $lyub-item-key,
+                        $lyub-item-value in $item-value {
                             // 第三层是伪类的样式
-                            #{$qiub-item-key}: $qiub-item-value;
+                            #{$lyub-item-key}: $lyub-item-value;
                         }
                     }
                 }

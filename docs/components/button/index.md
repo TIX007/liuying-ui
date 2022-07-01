@@ -1,70 +1,70 @@
 # Button 按钮
 
-<!-- <QiButton size="large">large</QiButton>
-<QiButton type="primary" size="large">确认</QiButton>
-<QiButton type="primary">primary</QiButton>
-<QiButton type="primary" disabled>确认</QiButton>
-<QiButton type="primary" block>确认</QiButton> -->
+<!-- <lyButton size="large">large</lyButton>
+<lyButton type="primary" size="large">确认</lyButton>
+<lyButton type="primary">primary</lyButton>
+<lyButton type="primary" disabled>确认</lyButton>
+<lyButton type="primary" block>确认</lyButton> -->
 
 :::details 使用`type`属性来定义 Button 的样式。
 
 <div>
-  <qi-button type="primary">primary</qi-button>
-  <qi-button type="secondary">secondary</qi-button>
-  <qi-button type="text">text</qi-button>
+  <ly-button type="primary">primary</ly-button>
+  <ly-button type="secondary">secondary</ly-button>
+  <ly-button type="text">text</ly-button>
 </div>
 
   ```vue
   <template>
-    <qi-button type="primary">primary</qi-button>
-    <qi-button type="secondary">secondary</qi-button>
-    <qi-button type="text">text</qi-button>
+    <ly-button type="primary">primary</ly-button>
+    <ly-button type="secondary">secondary</ly-button>
+    <ly-button type="text">text</ly-button>
   </template>
   ```
 :::
 
 :::details 使用`disabled`属性来禁用 Button。
 <div>
-  <qi-button disabled >large</qi-button>
-  <qi-button type="primary" disabled>large</qi-button>
-  <qi-button size="small" disabled>large</qi-button>
+  <ly-button disabled >large</ly-button>
+  <ly-button type="primary" disabled>large</ly-button>
+  <ly-button size="small" disabled>large</ly-button>
 </div>
 
   ```vue
   <template>
-    <qi-button disabled >large</qi-button>
-    <qi-button type="primary" disabled>large</qi-button>
-    <qi-button size="small" disabled>large</qi-button>
+    <ly-button disabled >large</ly-button>
+    <ly-button type="primary" disabled>large</ly-button>
+    <ly-button size="small" disabled>large</ly-button>
   </template>
   ```
 :::
 
 :::details 使用`size`属性来定义 Button 的大小。
 <div>
-  <qi-button size="large">large</qi-button>
-  <qi-button size="medium">medium</qi-button>
-  <qi-button size="small">small</qi-button>
+  <ly-button size="large">large</ly-button>
+  <ly-button size="medium">medium</ly-button>
+  <ly-button size="small">small</ly-button>
 </div>
 
   ```vue
   <template>
-    <qi-button size="large">large</qi-button>
-    <qi-button size="medium">medium</qi-button>
-    <qi-button size="small">small</qi-button>
+    <ly-button size="large">large</ly-button>
+    <ly-button size="medium">medium</ly-button>
+    <ly-button size="small">small</ly-button>
   </template>
   ```
 :::
 
 :::details 使用`block`属性来定义 Button 的样式。
 <div>
-  <qi-button size="large" block >large</qi-button>
-  <qi-button type="primary" block >large</qi-button>
+  <ly-button size="large" block >large</ly-button>
+  <ly-button type="primary" block >large</ly-button>
 </div>
 
   ```vue
   <template>
-    <qi-button size="large" block >large</qi-button>
-    <qi-button type="primary" block >large</qi-button>
+    <ly-button size="large" block >large</ly-button>
+    <ly-button type="primary" block >large</ly-button>
   </template>
   ```
 :::

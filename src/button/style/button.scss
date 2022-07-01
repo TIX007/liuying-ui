@@ -1,7 +1,7 @@
 @use './button-config.scss';
 @import './button-base.scss';
 
-.qi-btn {
+.ly-btn {
     // 导入button基础样式
     @include button-base;
 

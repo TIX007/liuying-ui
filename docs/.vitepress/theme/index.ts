@@ -2,11 +2,12 @@
 // 主题样式
 import 'vitepress-theme-demoblock/theme/styles/index.css'
 import DefaultTheme from 'vitepress/theme'
-import QiButton from '../../../src/button/src/button'
+import LyButton from '../../../src/button/src/button'
 import Test from '../../../src/components/Test'
 // 插件的组件，主要是demo组件
 import Demo from 'vitepress-theme-demoblock/components/Demo.vue'
 import DemoBlock from 'vitepress-theme-demoblock/components/DemoBlock.vue'
+import LiuYingUi from '../../../build'
 
 import './custom.css'
 import '../../../src/index.scss'
@@ -15,7 +16,8 @@ export default {
 //   ...Theme,
   ...DefaultTheme,
   enhanceApp({ app }) {
-    app.component('QiButton', QiButton)
+    app.component('LyButton', LyButton)
+    app.component('LiuYingUi', LiuYingUi)
     app.component('Test', Test)
     app.component('Demo', Demo)
     app.component('DemoBlock', DemoBlock)

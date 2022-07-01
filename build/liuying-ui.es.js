@@ -14,7 +14,7 @@ const buttonProps = {
   }
 };
 var Button = defineComponent({
-  name: "QiButton",
+  name: "LyButton",
   props: buttonProps,
   setup(props, {
     slots
@@ -26,9 +26,9 @@ var Button = defineComponent({
     } = toRefs(props);
     return () => {
       const defaultSlot = slots.default ? slots.default() : "\u6309\u94AE";
-      const blockClass = block.value ? "qi-btn--block" : "";
+      const blockClass = block.value ? "ly-btn--block" : "";
       return createVNode("button", {
-        "class": `qi-btn qi-btn--${type.value} qi-btn--${size.value} ${blockClass}`
+        "class": `ly-btn ly-btn--${type.value} ly-btn--${size.value} ${blockClass}`
       }, [defaultSlot]);
     };
   }

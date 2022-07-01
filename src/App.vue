@@ -8,11 +8,11 @@ import Test from './components/Test'
 <template>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <Test></Test>
-  <QiButton size="large">确认</QiButton>
-  <QiButton type="primary" size="large">确认</QiButton>
-  <QiButton type="primary">确认</QiButton>
-  <QiButton type="primary" disabled>确认</QiButton>
-  <QiButton type="primary" block>确认</QiButton>
+  <lyButton size="large">确认</lyButton>
+  <lyButton type="primary" size="large">确认</lyButton>
+  <lyButton type="primary">确认</lyButton>
+  <lyButton type="primary" disabled>确认</lyButton>
+  <lyButton type="primary" block>确认</lyButton>
 </template>
 
 <style>

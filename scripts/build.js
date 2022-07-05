@@ -32,20 +32,20 @@ const createPackageJson = name => {
   // 根据传入name决定包名、主文件和主模块名称
   const fileStr = `{
     "name": "${name ? name : 'liuying-ui'}",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "${name ? 'index.umd.js' : 'liuying-ui.umd.js'}",
     "module": "${name ? 'index.es.js' : 'liuying-ui.es.js'}",
     "author": "李崇",
     "github": "",
-    "description": "羊村第一个组件库liuying-UI，以后村里羊圈能不能建好就看它了！",
+    "description": "基于Vue3+Ts+Vite的组件库liuying-UI",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/57code/liuying-ui.git"
+      "url": "git+https://github.com/TIX007/liuying-ui"
     },
     "keywords": ["vue3", "组件库", "tsx", "UI"],
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/57code/liuying-ui/issues"
+      "url": "https://github.com/TIX007/liuying-ui/issues"
     }
   }`
   // 存在包名称，给单组件生成package.json文件

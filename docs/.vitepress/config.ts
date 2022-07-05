@@ -5,7 +5,7 @@ module.exports = {
     title: 'LiuYing-UI',
     titleTemplate: '基于Vite+Ts的Vue3.0组件库',
     description: '基于Vite+Ts的Vue3.0组件库',
-    //   base: '/',
+      base: '/vue3-liuying-ui/',
     themeConfig: {
         nav: [
       {

@@ -32,7 +32,7 @@ const createPackageJson = name => {
   // 根据传入name决定包名、主文件和主模块名称
   const fileStr = `{
     "name": "${name ? name : 'liuying-ui'}",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "${name ? 'index.umd.js' : 'liuying-ui.umd.js'}",
     "module": "${name ? 'index.es.js' : 'liuying-ui.es.js'}",
     "author": "李崇",

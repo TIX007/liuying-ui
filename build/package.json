@@ -1,6 +1,6 @@
 {
     "name": "liuying-ui",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "liuying-ui.umd.js",
     "module": "liuying-ui.es.js",
     "author": "李崇",

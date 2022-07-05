@@ -1,4 +1,8 @@
 ## Install
+- Homepage and documentation
+  - [LiuYing](https://tix007.github.io/vue3-liuying-ui/)
+
+## Install
 ```shell
 npm install liuying-ui -S
 ```

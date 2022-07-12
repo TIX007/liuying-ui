@@ -8,7 +8,7 @@ export default defineComponent({
   setup(props: TreeProps) {
     return () => {
       return (
-        <div class="s-tree"></div>
+        <div class="ly-tree"></div>
       )
     }
   }

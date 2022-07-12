@@ -1,19 +1,15 @@
 # Button 按钮
 
-<!-- <lyButton size="large">large</lyButton>
+<!-- 
+:::details *****
+<lyButton size="large">large</lyButton>
 <lyButton type="primary" size="large">确认</lyButton>
 <lyButton type="primary">primary</lyButton>
 <lyButton type="primary" disabled>确认</lyButton>
-<lyButton type="primary" block>确认</lyButton> -->
+<lyButton type="primary" block>确认</lyButton>
+::: -->
 
-:::details 使用`type`属性来定义 Button 的样式。
-
-<div>
-  <ly-button type="primary">primary</ly-button>
-  <ly-button type="secondary">secondary</ly-button>
-  <ly-button type="text">text</ly-button>
-</div>
-
+:::demo 使用`type`属性来定义 Button 的样式。
   ```vue
   <template>
     <ly-button type="primary">primary</ly-button>
@@ -23,13 +19,7 @@
   ```
 :::
 
-:::details 使用`disabled`属性来禁用 Button。
-<div>
-  <ly-button disabled >large</ly-button>
-  <ly-button type="primary" disabled>large</ly-button>
-  <ly-button size="small" disabled>large</ly-button>
-</div>
-
+:::demo 使用`disabled`属性来禁用 Button。
   ```vue
   <template>
     <ly-button disabled >large</ly-button>
@@ -39,13 +29,7 @@
   ```
 :::
 
-:::details 使用`size`属性来定义 Button 的大小。
-<div>
-  <ly-button size="large">large</ly-button>
-  <ly-button size="medium">medium</ly-button>
-  <ly-button size="small">small</ly-button>
-</div>
-
+:::demo 使用`size`属性来定义 Button 的大小。
   ```vue
   <template>
     <ly-button size="large">large</ly-button>
@@ -55,12 +39,7 @@
   ```
 :::
 
-:::details 使用`block`属性来定义 Button 的样式。
-<div>
-  <ly-button size="large" block >large</ly-button>
-  <ly-button type="primary" block >large</ly-button>
-</div>
-
+:::demo 使用`block`属性来定义 Button 的样式。
   ```vue
   <template>
     <ly-button size="large" block >large</ly-button>

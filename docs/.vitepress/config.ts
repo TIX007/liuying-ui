@@ -1,27 +1,40 @@
 
 
 module.exports = {
-    lang: 'en-US',
+    lang: 'zh-CN',
     title: 'LiuYing-UI',
     titleTemplate: '基于Vite+Ts的Vue3.0组件库',
     description: '基于Vite+Ts的Vue3.0组件库',
-      base: '/vue3-liuying-ui/',
+    base: '/vue3-liuying-ui/',
+    editLinks: true,
+    lastUpdated: '上次更新',
     themeConfig: {
+        lastUpdatedText: '上次更新',
+        editLink: {
+            pattern: 'https://github.com/TIX007/liuying-ui/blob/master/docs/:path',
+            text: '在 GitHub 上编辑此页'
+        },
+        docFooter: {
+            prev:'上一页',
+            next:'下一页'
+        },
         nav: [
-      {
-        text: '首页',
-        link: '/'
-      },
-      {
-        text: '组件',
-        link: '/components/'
-      },
-    ],
+            {
+                text: '首页',
+                link: '/'
+            },
+            {
+                text: '组件',
+                link: '/components/'
+            },
+        ],
         sidebar: {
             '/components/': [
-                { text: '开发指南', items: [
-                    { text: '安装', link: '/components/' }
-                ] },
+                {
+                    text: '开发指南', items: [
+                        { text: '安装', link: '/components/' }
+                    ]
+                },
                 {
                     text: '通用',
                     items: [
@@ -34,8 +47,8 @@ module.exports = {
                 { text: '数据展示', items: [] },
                 { text: '布局', items: [] },
             ],
-            '/':[
-                {text: '快速开始', link: '/components/', items: []}
+            '/': [
+                { text: '快速开始', link: '/components/', items: [] }
             ]
         }
     },

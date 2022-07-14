@@ -3,8 +3,9 @@ layout: home
 
 hero:
   name: LiuYing-UI
-  text: 基于Vite加Ts的组件库，更快速，更轻盈.
+  text: 基于Vite+Ts的组件库，更快速，更轻盈.
   tagline: Lorem ipsum...
+  # prev: '上一页 | 下一页'
   actions:
     - theme: brand
       text: 立即上手

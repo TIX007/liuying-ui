@@ -7,9 +7,9 @@ module.exports = {
     description: '基于Vite+Ts的Vue3.0组件库',
     base: '/vue3-liuying-ui/',
     editLinks: true,
-    lastUpdated: '上次更新',
+    lastUpdatedText: '上次更新',
     themeConfig: {
-        lastUpdatedText: '上次更新',
+        lastUpdated: '上次更新',
         editLink: {
             pattern: 'https://github.com/TIX007/liuying-ui/blob/master/docs/:path',
             text: '在 GitHub 上编辑此页'
@@ -38,7 +38,8 @@ module.exports = {
                 {
                     text: '通用',
                     items: [
-                        { text: 'Button 按钮', link: '/components/button/' }
+                        { text: 'Button 按钮', link: '/components/button/' },
+                        { text: 'Tree 树形控件', link: '/components/tree/' },
                     ],
                 },
                 { text: '导航', items: [] },

@@ -1,7 +1,7 @@
 import { defineComponent, toRefs, renderSlot, useSlots, inject } from 'vue'
 import { TreeNodeProps, treeNodeProps } from './tree-node.type'
 import { NODE_HEIGHT, NODE_INDENT } from '../../const';
-import STreeNodeToggle from '../tree-node-toggle'
+import STreeNodeToggle from '../../components/tree-node-toggle'
 
 export default defineComponent({
   name: 'STreeNode',

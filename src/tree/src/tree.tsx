@@ -1,5 +1,5 @@
 import { defineComponent, toRefs } from 'vue'
-import { useTree } from './componsables/use-tree'
+import { useTree } from './components/use-tree'
 import { treeProps, TreeProps } from './tree-type'
 export default defineComponent({
   name: 'Tree',
